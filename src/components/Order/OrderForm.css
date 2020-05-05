@@ -1,0 +1,32 @@
+.orderingSheet {
+    position: fixed;
+    z-index: 500;
+    background-color: white;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 1px black;
+    padding: 10px;
+    left: 2%;
+    top: 5%;
+    width:95%;
+    height: 90vh;
+    box-sizing: border-box;
+    transition: all 0.3s ease-out;
+    margin:auto;
+    display: flex;
+}
+
+.deleting{
+    cursor: not-allowed;
+    border: 1.5px solid red;
+}
+
+/* @media (min-width: 600px) {
+    .orderingSheet {
+        width: 500px;
+        left: calc(50% - 250px);
+    }
+} */
+
+.place-for-buttons{
+    width: 80%;
+}

@@ -1,0 +1,58 @@
+.tables{
+    margin:40px;
+}
+
+.round{
+    /* margin: 50px; */
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    background-color: red;
+    /* position: relative; */
+}
+
+.round:hover{
+    background-color: orange;
+    cursor: pointer;
+}
+
+.cube {
+    /* margin:50px; */
+    width: 80px;
+    height: 80px;
+    background-color: green;
+}
+
+.cube:hover{
+    background-color: palegreen;
+    cursor: pointer;
+}
+
+.tables p{
+    position: relative;
+    margin: 0;
+    text-align: center;
+    top: 35%;
+    left: 0%;
+}
+
+.rectangle-x {
+    border-radius: 8%;
+    /* margin: 50px; */
+    width: 200px;
+    height: 80px;
+    background-color: #2858a6;
+}
+
+.rectangle-y {
+    border-radius: 8%;
+    /* margin: 50px; */
+    height: 200px;
+    width: 80px;
+    background-color: #2858a6;
+}
+
+.rectangle-y:hover, .rectangle-x:hover{
+    background-color: #3b7eeb;
+    cursor: pointer;
+}

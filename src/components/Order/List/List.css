@@ -1,0 +1,13 @@
+.list{
+    width:20%;
+    box-shadow: 0 0 10px black;
+}
+
+.list p{
+    margin: 13px 30px;
+}
+
+.bill{
+    position: absolute;
+    top: 85%;
+}
